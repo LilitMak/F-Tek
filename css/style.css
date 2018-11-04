@@ -1,5 +1,5 @@
 body{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Oswald', Arial, sans-serif;
 
 }
 *{
@@ -43,7 +43,7 @@ header{
 .content-container h1{
 	color: #003366;
 	text-transform: uppercase;
-	letter-spacing: 10px;
+	letter-spacing: 56px;
 	font-size: 36px;
 	line-height: 46px;
 
