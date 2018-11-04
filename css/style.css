@@ -37,7 +37,7 @@ header{
 	width: 80%;
 	margin: 0 auto;
 	text-align: justify;
-	
+
 }
 
 .content-container h1{
@@ -110,7 +110,7 @@ padding: 0 10px;
 .sl h3{
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	
+
 }
 
 .sl  p{
@@ -126,7 +126,7 @@ main{
 .kub{
 	display: block;
 	justify-content: space-between;
-	
+
 }
 
 
@@ -143,7 +143,7 @@ main{
 
 .block p{
 	text-align: center;
-	
+
 }
 .block a{
 	width: 200px;
@@ -174,7 +174,7 @@ footer {
 }
 
 .footer-menu{
-	
+
 }
 
 .footer-menu a{
@@ -204,7 +204,7 @@ footer {
 
 .tel{
 	text-align: center;
-	font-size: 22px; 
+	font-size: 22px;
 	margin-top: -10px;
 }
 
@@ -223,8 +223,8 @@ footer {
 	width: 90%;
 	text-align: justify;
 	padding: 0 10px;
-	
-	
+
+
 }
 main{
 	max-width: 100%;
@@ -271,7 +271,7 @@ main{
 	}
 
 	.header-container a{
-		margin-right: -38px; 
+		margin-right: -38px;
 		font-size: 14px;
 	}
 	.main-menu{
@@ -305,7 +305,7 @@ main{
 
 .kub img{
 	width: 50%;
-	
+
 }
 
 .footer-container{
@@ -331,18 +331,18 @@ footer {
 	margin: 0 auto;
 	display: flex;
 
-	
+
 }
 
 .soc_icon{
 	display: inline;
 	margin: 10px 5px;
-	
+
 }
 
 .tel{
 	text-align: center;
-	font-size: 22px; 
+	font-size: 22px;
 	margin-top: -10px;
 	width: 100%;
 	display: block;
