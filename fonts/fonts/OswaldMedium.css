@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'OswaldMedium';
+    src: url('fonts/OswaldMedium.eot');
+    src: url('fonts/OswaldMedium.eot') format('embedded-opentype'),
+         url('fonts/OswaldMedium.woff2') format('woff2'),
+         url('fonts/OswaldMedium.woff') format('woff'),
+         url('fonts/OswaldMedium.ttf') format('truetype'),
+         url('fonts/OswaldMedium.svg#OswaldMedium') format('svg');
+}
