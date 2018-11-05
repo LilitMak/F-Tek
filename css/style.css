@@ -21,7 +21,7 @@ header{
 	padding: 20px 0;
 }
 
-.sl img{
+.slider img{
 	width: 100%;
 	height: auto;
 }
@@ -75,12 +75,12 @@ nav{
 
 
 
-.sl{
+.slider{
 	width: 80%;
 	margin: 0 auto;
 }
 
-.sl h2{
+.slider h2{
 	background: #d0df89;
 	display: inline;
 	font-size: 55px;
@@ -89,11 +89,11 @@ nav{
 }
 
 /*Стили для слайдера*/
-.sl_slide {
+.slider_slide {
   position: relative;
 }
 
-.sl_text{
+.slide_text{
   position: absolute;
   bottom: 0;
   background: rgba(0, 0, 0, 0.7);
@@ -104,18 +104,18 @@ nav{
   padding: 20px 0;
 }
 
-.sl_zag, .sl_desc{
+.slide_title, .slide_description{
 margin: 0;
 padding: 0 10px;
 }
 
-.sl h3{
+.slider h3{
 	text-transform: uppercase;
 	letter-spacing: 3px;
 
 }
 
-.sl  p{
+.slider p{
 	letter-spacing: 3px;
 
 }
@@ -282,12 +282,12 @@ main{
 		right: 40px;
 		margin-bottom: 10px;
 	}
-	.sl{
+	.slider{
 	width: 100%;
 	margin: 0 auto;
 }
 
-.sl img{
+.slider img{
 	width: 100%;
 	height: auto;
 }
