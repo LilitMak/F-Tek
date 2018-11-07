@@ -43,10 +43,8 @@ header{
 .content-container h1{
 	color: #003366;
 	text-transform: uppercase;
-	letter-spacing: 56px;
+	letter-spacing: 36px;
 	font-size: 36px;
-	line-height: 46px;
-
 	text-align: center;
 	padding-top: 40px;
 }

@@ -1,0 +1,98 @@
+body{
+	font-family: 'Oswald', Arial, sans-serif;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+  padding: 15px 0;
+  background: #d0cfcb;
+  box-shadow: 0 5px 7px 0 #1f3a139e;
+}
+
+.header-container{
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.main-navigation{
+  display: flex;
+  align-items: center;
+}
+
+.site-navigation {
+  list-style: none;
+  display: flex;
+}
+
+.site-navigation a{
+  text-decoration: none;
+  color: #000;
+	font-size: 16px;
+	padding: 0 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.site-navigation
+a:hover
+{
+  width: 20px;
+  background-color: #6aa53b3d;
+  padding: 15px 20px;
+  border-bottom: 2px solid #8ea578;
+}
+
+
+
+/*Стили для слайдера*/
+
+.slider{
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.slider h2{
+	background: #d0df89;
+	display: inline;
+	font-size: 55px;
+	padding: 0 13px;
+	margin-top: 5px;
+}
+
+.slider_slide {
+  position: relative;
+}
+
+.slide_text{
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  padding: 20px 0;
+}
+
+.slide_title, .slide_description{
+margin: 0;
+padding: 0 10px;
+}
+
+.slider h3{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+
+}
+
+.slider p{
+	letter-spacing: 3px;
+
+}

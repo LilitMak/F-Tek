@@ -7,33 +7,29 @@
 	<title>Электромонтажные работы</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="slick/slick.css">
 	<link rel="stylesheet" href="slick/slick-theme.css">
-	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 	<header>
-		<div class="header-container">
-			<div class="logo">
-				<img src="img/logo.png" alt="logo">
-			</div>
-			<input type="checkbox" id="menu-checkbox">
-			<nav role="navigation">
-				<label for="menu-checkbox" class="toggle-button" data-open="Menu" data-close="Close" onclick></label>
-				<ul class="main-menu">
-					<li><a href="#">Главная</a></li>
-					<li><a href="#">Услуги</a></li>
-					<li><a href="#">Прайс</a></li>
-					<li><a href="#">Наши работы</a></li>
-					<li><a href="#">Контакты</a></li>
-
-				</ul>
-			</nav>
-
+	<div class="header-container">
+		<div class="logo">
+			<img src="img/logo.png" alt="logo">
 		</div>
-	</header>
 
+		<nav class="main-navigation">
+			<ul class="site-navigation">
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Услуги</a></li>
+				<li><a href="#">Прайс</a></li>
+				<li><a href="#">Наши работы</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
 
 	<main>
 		<div class="slider">
@@ -67,34 +63,59 @@
 
 		</section>
 		<section class="content-container">
-			<h1>наши преимущества</h1>
-			<div class="kub">
-				<div class="block"><img src="img/img1.png" alt="">
+			<h1 class=visually-hidden>Электромонтажные работы</h1>
+			<div class="service">
+
+				<div class="service-electricboard">
+					<h2>Сборка и реконструкция электрощита</h2>
+					<ul class="service-item">
+						<li>установка и сборка электрощита</li>
+						<li>установка автоматических выключателей</li>
+					</ul>
+				</div>
+
+				<div class="installation">
+					<h2>Монтаж электропроводки</h2>
+					<ul class="installation-item">
+						<li>замена проводки</li>
+						<li>составление схем</li>
+						<li>прокладка</li>
+						<li>установка</li>
+					</ul>
+				</div>
+
+				<div class="sockets">
+					<h2>Установка и замена выключателей и розеток</h2>
+				</div>
+
+				<div class="design">
+					<h2>Проектирование слаботочных систем</h2>
+					<ul class="design-item">
+						<li>проектирование пожарной сигнализации</li>
+						<li>охранная сигнализация</li>
+						<li>системы телефонизации</li>
+						<li>системы эфирного, кабельного, спутникового телевидения</li>
+						<li>локально-вычислительные сети</li>
+						<li>системы видеонаблюдения</li>
+					</ul>
+				</div>
+
+				<div class="turn_key">
 					<h2>Электрика под ключ в квартире и доме</h2>
-					<p>электрика под ключ в частном доме</p>
-				</div>
-				<div class="block"><img src="img/img2.png" alt="">
-					<h2>Опыт</h2>
-					<p>Высокая квалификация специалистов позволяет проводить работы ЛЮБОЙ сложности «под ключ»</p>
-				</div>
-				<div class="block"><img src="img/img3.png" alt="">
-					<h2>Опыт</h2>
-					<p>Высокая квалификация специалистов позволяет проводить работы ЛЮБОЙ сложности «под ключ»</p>
-				</div>
-				<div class="block"><img src="img/img4.png" alt="">
-					<h2>Опыт</h2>
-					<p>Высокая квалификация специалистов позволяет проводить работы ЛЮБОЙ сложности «под ключ»</p>
+					<ul class="turn_key-item">
+						<li>электрика под ключ в частном доме</li>
+						<li>электрика квартире</li>
+						<li>электрика в новостройке под ключ</li>
+					</ul>
 				</div>
 
 			</div>
-		</section>
 	</main>
 
 	<footer>
 		<div class="footer-container">
 			<nav role="navigation">
 				<ul class="footer-menu">
-					<li><a href="#">Главная</a></li>
 					<li><a href="#">Услуги</a></li>
 					<li><a href="#">Прайс</a></li>
 					<li><a href="#">Наши работы</a></li>
@@ -104,18 +125,51 @@
 				<div class="copy">2018 © Все права защищены.</div>
 			</nav>
 			<div class="tel">тел: +7 (910) 342-26-63<br><a href="mailto:info@f-tek.ru">info@f-tek.ru</a> </div>
-			<div class="logo_icon">
-				<div class="soc_icon"><img src="img/vk.png" alt=""></div>
-				<div class="soc_icon"><img src="img/facebook.png" alt=""></div>
-				<div class="soc_icon"><img src="img/instagram.png" alt=""></div>
-			</div>
+
+			<div class="footer-social">
+			<b>Давайте дружить!</b>
+			<ul>
+				<li>
+					<a href="#" class="social-button">Вконтакте</a>
+					<a href="#" class="social-button">Фейсбук</a>
+					<a href="#" class="social-button">Инстаграм</a>
+				</li>
+			</ul>
+		</div>
 
 		</div>
 	</footer>
 
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<section>
+		<div class="modal">
+			<form class="example-form" action="mail.php" method="POST">
+	 			<input type="text" name="Имя">
+	 			<input type="email" name="E-mail">
+	 			<input type="submit" value="Отправить">
+ 			</form>
+		</div>
+
+		<main>
+		<div class="button js-button-campaign"><span>Заявка</span></div>
+	</main>
+	<div class="overlay js-overlay-campaign">
+		<div class="popup js-popup-campaign">
+
+			<form class="form" id="form" name="form">
+		<input type="text" class="form-field" name="name" placeholder="Введите ваше имя">
+		<input type="text" class="form-field" name="phone" placeholder="Введите ваш телефон">
+		<button class="form-button"><span class="text-button">Отправить заявку</span></button>
+	</form>
+			<div class="close-popup js-close-campaign"></div>
+		</div>
+	</div>
+	</section>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="main.js"></script>
 	<script src="slick/slick.min.js"></script>
 	<script src="js/js.js"></script>
+
 </body>
 
 </html>
