@@ -111,8 +111,13 @@ padding: 0 10px;
   display: none;
 }
 
-.content-container h2{
+.content-container h2 {
   text-align: center;
+}
+
+.content-container h3{
+      font-size: 1.5em;
+      text-align: center;
 }
 .service-first-row, .service-second-row, .service-thirth-row{
   display: flex;
@@ -191,6 +196,7 @@ padding: 0 10px;
 
 .service-first-row img{
   margin-top: 15px;
+  width: 200px;
 }
 
 
