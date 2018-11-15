@@ -15,7 +15,7 @@ header{
 
 .header-container{
   display: flex;
-  width: 940px;
+  width: 1080px;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -55,7 +55,7 @@ a:hover
 /*Стили для слайдера*/
 
 .slider{
-  width: 940px;
+  width: 1080px;
   margin: 0 auto;
   display: flex;
   margin-bottom: 70px;
@@ -101,7 +101,7 @@ padding: 0 10px;
 }
 
 .content-container{
-  width: 940px;
+  max-width: 940px;
   display: flex;
   margin: 0 auto;
   margin-top: 50px;
@@ -122,7 +122,7 @@ padding: 0 10px;
 .service-first-row, .service-second-row, .service-thirth-row{
   display: flex;
   justify-content: space-between;
-  width: 940px;
+  max-width: 940px;
   margin-bottom: 50px;
 
 
@@ -145,7 +145,7 @@ padding: 0 10px;
 .service-electricboard, .installation{
   background-color: #d0cfcb2e;
   box-shadow: 3px 3px 4px 0px #00000038;
-  width: 50%;
+  width: 450px;
   margin: 10px;
   padding: 15px;
   font-family: inherit;
@@ -254,13 +254,77 @@ padding: 0 10px;
   justify-content: space-between;
   align-items: center;
 }
-.overlay,
-.modal{
-  visibility: hidden;
+.modal h3{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+  padding-bottom: 10px;
+}
+.modal {
+	display: none;
+
 }
 
-.button span{
-  text-decoration: none;
+.modal-show {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	padding: 20px;
+	background-image: url(../img/img-bg.jpg);
+	border: 1px solid #3d3c3b;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+  animation: bounce 0.6s;
+}
+
+.form-field{
+	width: 250px;
+	font-size: 16px;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+.form-text{
+	width: 350px;
+	height: 200px;
+}
+
+.close-popup {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 23px;
+	height: 23px;
+	cursor: pointer;
+}
+
+.close-popup:before {
+	content: '';
+	background-color: #000;
+	position: absolute;
+	height: 1px;
+	width: 31px;
+	top: 11px;
+	left: -4px;
+	transform: rotate(-45deg);
+}
+
+.close-popup:after {
+	content: '';
+	background-color: #000;
+	position: absolute;
+	height: 1px;
+	width: 31px;
+	top: 11px;
+	transform: rotate(45deg);
+	left: -4px;
+}
+.login li{
+	list-style: none;
+}
+
+.login-link{
+	text-decoration: none;
   color: #000;
 	font-size: 16px;
 	padding: 0 20px;
@@ -270,7 +334,7 @@ padding: 0 10px;
   border: 1px solid #fff;
   border-radius: 10px;
   background-color: #fff;
-  margin-left: 10px;
+  margin-left: 10px;f
 
 }
 
