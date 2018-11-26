@@ -307,6 +307,15 @@ padding: 0 10px;
   text-transform: uppercase;
 	cursor: pointer;
 }
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .5);
+	display: none;
 }
 .close-popup {
 	position: absolute;
