@@ -3,7 +3,6 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="robots" content="index, follow" />
   <meta name="keywords" content="замена монтаж электрики электромонтажные работы под ключ в квартире цена стоимость " />
@@ -12,6 +11,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="slick/slick.css">
 	<link rel="stylesheet" href="slick/slick-theme.css">
 </head>
@@ -180,20 +180,30 @@
 		<div class="modal modal-login">
 
 			<form class="form" id="form" name="form">
-				<h3>Обратный звонок</h3>
-		<input type="text" class="form-field" name="name" placeholder="Введите ваше имя" required><br>
-		<input type="text" class="phone-mask" name="phone" placeholder="Введите ваш телефон" required><br>
-		<input type="text" class="form-text" name="phone" placeholder="Введите текст"><br>
-		<button class="form-button"><span class="text-button">Отправить заявку</span></button>
-	</form>
+			<input type="text" class="form-field" name="name" placeholder="Введите ваше имя"><br><br>
+			<input type="text" class="form-field" name="phone" placeholder="Введите ваш телефон"><br><br>
+			<textarea name="text" class="form-field" placeholder="Введите текст"></textarea><br><br>
+			<button class="form-button"><span class="text-button">Отправить</span></button>
+		</form>
 			<div class="close-popup js-close-campaign"></div>
 		</div>
 		<div class="popup-bg"></div>
 
+		<div class="overlay js-overlay-thank-you">
+			<div class="popup js-thank-you">
+				<h2>Спасибо за заявку</h2>
+				<div class="close-popup js-close-thank-you"></div>
+			</div>
+		</div>
+
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="slick/slick.min.js"></script>
+	<script src="main.js"></script>
 	<script src="js/js.js"></script>
+
+
+	<script src="jquery.maskedinput.js"></script>
 
 </body>
 

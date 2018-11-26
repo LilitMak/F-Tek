@@ -10,7 +10,7 @@ $('.slider').slick({
 });
 var link = document.querySelector(".login-link");
 var popup = document.querySelector(".modal-login");
-var close = document.querySelector(".close-popup");
+var close = document.querySelector(".js-close-thank-you");
 
 link.addEventListener("click", function(evt) {
   evt.preventDefault();

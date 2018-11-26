@@ -278,9 +278,13 @@ padding: 0 10px;
 	top: 20%;
 	padding: 20px;
 	background-image: url(../img/img-bg.jpg);
-	border: 1px solid #3d3c3b;
+	border: 1px solid rgba(#3d3c3b, 0.75);
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
   animation: bounce 0.6s;
+}
+
+.form{
+	margin: 15px 10px;
 }
 
 .form-field{
@@ -295,6 +299,15 @@ padding: 0 10px;
 	height: 200px;
 }
 
+.form-button{
+	padding: 5px;
+  margin: -15px 0;
+  border: 1px solid #42414147;
+  border-radius: 5px;
+  text-transform: uppercase;
+	cursor: pointer;
+}
+}
 .close-popup {
 	position: absolute;
 	top: 15px;
@@ -325,6 +338,17 @@ padding: 0 10px;
 	transform: rotate(45deg);
 	left: -4px;
 }
+.popup {
+    position: absolute;
+    width: 250px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 18px;
+    background-color: #FFF;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
 .popup-bg{
 	position: fixed;
 	top: 0;
@@ -351,7 +375,7 @@ padding: 0 10px;
   border: 1px solid #fff;
   border-radius: 10px;
   background-color: #fff;
-  margin-left: 10px;f
+  margin-left: 10px;
 
 }
 
