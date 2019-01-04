@@ -271,6 +271,8 @@ padding: 0 10px;
 
 }
 
+
+
 .modal-show {
 	display: block;
 	position: absolute;
@@ -446,9 +448,15 @@ padding: 0 10px;
 		margin-left: 20px;
 	}
 
+		.mnu-show{
+			display: block;
+
+		}
 		.main-navigation{
 		display: none;
 	}
+
+
 	.toggle_mnu{
 		display: block;
 		width: 60px;
@@ -521,11 +529,16 @@ padding: 0 10px;
 	  top: 0;
 	  transform: rotate(180deg);
 	}
+
+
 	main{
 		display: none;
 	}
 footer{
 	display: none;
 
+}
+.form-modal{
+	display: none;
 }
 }

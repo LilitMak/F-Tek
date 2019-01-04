@@ -12,6 +12,10 @@ var link = document.querySelector(".login-link");
 var popup = document.querySelector(".modal-login");
 var close1 = document.querySelector(".js-close-campaign");
 var close = document.querySelector(".js-close-thank-you");
+var tog = document.querySelector(".toggle_mnu");
+var mnu = document.querySelector(".site-navigation");
+
+
 
 link.addEventListener("click", function(evt) {
   evt.preventDefault();
@@ -28,6 +32,10 @@ close.addEventListener("click", function(evt){
   popup.classList.remove("modal-show");
 });
 
+tog.addEventListener("click", function(evt) {
+  evt.preventDefault();
+  mnu.classList.add("mnu-show");
+});
 
 // Отправка заявки
 $(document).ready(function() {
