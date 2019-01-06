@@ -25,16 +25,23 @@
 			<img src="img/logo.png" alt="logo">
 		</div>
 
-		<button class="toggle_mnu">
-			<span class="sandwich">
-				<span class="sw-topper"></span>
-				<span class="sw-bottom"></span>
-				<span class="sw-footer"></span>
-			</span>
-		</button>
+		<div class="visually-hidden" id="sidebar" >
+			<div class="toggle-btn" onclick="openMenu()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul>
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Услуги</a></li>
+				<li><a href="#">Прайс</a></li>
+				<li><a href="#">Наши работы</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</div>
 
 
-		<nav class="main-navigation">
+		<nav class="main-navigation" >
 			<h2 class="visually-hidden">Электромонтажные работы воронеж 2018</h2>
 			<ul class="site-navigation">
 				<li><a href="#">Главная</a></li>
@@ -45,7 +52,7 @@
 			</ul>
 
 			<ul class="login">
-				<li><a class="login-link" href="login.html">Заявка</a></li>
+				<li><a class="login-link" href="login.html">Заявка</a> <span class="mobile-tel">тел: +7 (910) 342-26-63</span></li>
 			</ul>
 
 
@@ -196,6 +203,12 @@
 			</div>
 		</div>
 </div>
+
+<script>
+		function openMenu(){
+			document.getElementById("sidebar").classList.toggle('active')
+		}
+	</script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="slick/slick.min.js"></script>
